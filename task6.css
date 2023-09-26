@@ -1,0 +1,12 @@
+body{
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 30px;
+}
+#x{
+    height: 40px;
+    padding: 10px;
+    border: 1px solid;
+    border-radius: 6px;
+   
+}

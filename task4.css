@@ -1,0 +1,16 @@
+a{
+    color: rgb(232, 197, 0);
+    text-decoration: none;
+}
+img{
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+.row{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+span.card-title{
+   font-size: 24px;
+}

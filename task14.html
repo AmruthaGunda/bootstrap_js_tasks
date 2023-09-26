@@ -1,0 +1,125 @@
+<html>
+<head>
+<title>Student Registration Form Using Table in HTML</title>
+<link rel="stylesheet" href="task26.css">
+</head>
+<body>
+<h2>Registration Form </h3>
+<table align="center" cellpadding = "10">
+
+<!--------------------- First Name ------------------------------------------>
+<tr>
+    <td><div class="centered-elements"><b>First Name:</b></div></div></td>
+    <td><input type="text" name="FirstName" maxlength="50" />
+    </td>
+    </tr>
+    <!------------------------ Last Name --------------------------------------->
+    <tr>
+    <td><div class="centered-elements"><b>Last Name:</b></div></td>
+    <td><input type="text" name="LastName" maxlength="50"/>
+    </td>
+    </tr>
+    <!-------------------------- Email ID ------------------------------------->
+    <tr>
+    <td><div class="centered-elements"><b>Email:</b></div></td>
+    <td><input type="email" name="Email" maxlength="100"/></td>
+    </tr>
+    <!--------------------- Password ------------------------------------------>
+    <tr>
+    <td><div class="centered-elements"><b>Password:</b></div></div></td>
+    <td><input type="text" name="password" maxlength="50" />
+    </td>
+    </tr>
+    <!--------------------- re-enterPassword ------------------------------------------>
+    <tr>
+    <td><div class="centered-elements"><b>Re-enter Password:</b></div></div></td>
+    <td><input type="text" name="password" maxlength="50" />
+    </td>
+    </tr>
+    <!---------------------- Gender ------------------------------------->
+    <tr>
+    <td><div class="centered-elements"><b>Gender:</b></div></td>
+    <td>
+        <div class="container">
+            <div class="column">
+                  <input type="radio" name="Gender" value="Male" />
+                         Male</div>
+            <div class="column">
+                <input type="radio" name="Gender" value="Female" />
+                        Female
+            </div></div>
+    </td>
+    </tr>
+    <!-------------------------- Age ------------------------------------->
+    <div table>
+    <tr>
+    <td><div class="centered-elements"><b>Age:</b></div></td>
+    <td>
+    <input type="number" name="age" maxlength="2" />
+    </tr>
+    <!-------------------------- Phone Number ------------------------------------->
+    <tr>
+    <td><div class="centered-elements"><b>Phone Number:</b></div></td>
+    <td>
+    <input type="text" name="PhoneNumber" maxlength="10"/>
+    </td>
+    </tr>
+    <!------------------------- Address ---------------------------------->
+    <tr>
+    <td><div class="centered-elements"><b>Address:</b></div><br /><br /><br /></td>
+    <td><textarea name="Address" rows="6" cols="65"></textarea></td>
+    </tr>
+    <!-------------------------- State ------------------------------------->
+    <tr>
+    <td><div class="centered-elements"><b>State:</b></div></td>
+    <td><input type="text" name="State" maxlength="50"/>
+    </td>
+    </tr>
+    <!------------------------------ Country --------------------------------->
+    <tr>
+    <td><div class="centered-elements"><b>Country:</b></div></td>
+    <td>
+    <select name="Country" id="country">
+    <option value="-1">Choose your country</option>
+    <option value="India">India</option>
+    <option value="Korea">Korea</option>
+    </select>
+    </td>
+    </tr>
+    <!------------------------- Languages Known -------------------------------------->
+    <tr>
+    <td><div class="centered-elements"><b>Languages Known:</b></div><br /><br /><br /></td>
+    <td>
+    <input type="checkbox" name="English" value="english" />
+    English
+    <input type="checkbox" name="Kannada" value="kannada" />
+    Kannada
+    <input type="checkbox" name="Hindi" value="hindi" />
+    Hindi
+    <input type="checkbox" name="Telugu" value="telugu" />
+    Telugu
+    <br />
+    </td>
+    </tr>
+    </div>
+    <tr><td colspan="3" class="left-footer">
+        <form action="#" method="post">
+            <input type="checkbox" id="agree" name="agree" value="yes" required>
+            <label for="agree">Hereby I declare all the given details are true</label>
+        </td>
+    </tr>
+    <tr><td colspan="3" class="right-footer" >
+            <label for="agree">Log in to <a href=https://codemithra.com>Ethnus </a>website</label>
+        </td>
+    </tr>
+    </tfoot>
+    <tr>
+        <td colspan="2" align="center" color="red">
+        <input type="submit" value="Register"></td>
+    </tr>
+    </table>
+    </form>
+    </body>
+    </html>
+    
+    

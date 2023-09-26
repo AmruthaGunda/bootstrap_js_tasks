@@ -1,0 +1,15 @@
+h1,div{
+    text-align: center;
+}
+h1{
+    color: rgb(2, 2, 109);
+}
+img{
+    padding-top: 100px;
+    animation: move 4s linear infinite ;
+    animation-play-state: paused;
+}
+@keyframes move{
+    0% {padding-left: 0%;}
+    100% {padding-left: 80%;}
+}

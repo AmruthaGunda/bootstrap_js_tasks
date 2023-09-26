@@ -1,0 +1,19 @@
+.btn-custom{
+    border: 2px solid white;
+    color: white;
+    border-radius: 0;
+}
+span{
+    font-size: 14px;
+}
+.bg-image{
+    background-image: url(builderz_photo.jpg);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.btn-custom:hover{
+    border: 2px solid rgb(203, 203, 203);
+    color: rgb(203, 203, 203);
+}
